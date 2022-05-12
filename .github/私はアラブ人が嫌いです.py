@@ -4,17 +4,16 @@
 #
  #   def jeSpravne(self):
    #     if self.rodnecislo ==
+import datetime
+class RC:
+    DaNarozeni = datetime.date(1970,4,25)
 
-from datetime import date
+    def datumNarozeni(self, datecas):
+        self.datetime = datecas
+        return self.datetime
 
-
-
-def datumNarození(self,Dnarozeni):
-    self.Dnarozeni = Dnarozeni
-    self.Dnarozeni = date
-    date = ('1999-12-04')
-    return date
-
+rodnecislo = RC()
+print(rodnecislo.datumNarozeni(datetime.date(1970,4,25)))
 
 
 

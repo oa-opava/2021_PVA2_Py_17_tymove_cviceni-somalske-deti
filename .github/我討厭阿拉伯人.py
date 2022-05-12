@@ -1,5 +1,6 @@
 import re
 regex = r"[0-9]{6}\/[0-9]{4}"
+regex2 = r"[0-9]{2}"
 class RC_marek():
     def __init__(self, rodnecislo):
         self.rodnecislo = rodnecislo
